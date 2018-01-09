@@ -25,8 +25,6 @@ In order to be able to use Jauntyslider, [download the zip file](https://github.
 <script src="dist/js/jauntyslider.min.js"></script>
 ```
 
-Put the arrows image in your *img* folder as well.
-
 ## Usage
 As stated in the introduction, we start using the attribute *data-jauntyslider*.
 

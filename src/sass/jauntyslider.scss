@@ -33,27 +33,49 @@ overflow: hidden;
 		}
 		
 	}
-
+	
 	.jauntyslider-previous,
 	.jauntyslider-next
 	{
 	display: none;
 	position: absolute;
 	z-index: 1;
-	width: 35px;
-	height: 65px;
 	left: 20px;
-	top: 40%;
+	top: 50%;
+	margin-top: -14px;
+	width: 28px;
+	height: 28px;
 	cursor: pointer;
-	background: url(../img/jauntyslider.png) no-repeat 0 0;
+	background-color: rgba(119, 119, 119, 0.7);
+	border-radius: 50%;
 	@include user-select(none);
+
+		i
+		{
+		display: block;
+		margin: 8px 0 0 10px;
+		width: 9px;
+		height: 9px;
+		border-left: 3px solid #FFF;
+		border-top: 3px solid #FFF;
+		transform: rotate(-45deg);
+		@include user-select(none);
+		}
+		
 	}
 
 	.jauntyslider-next
 	{
 	left: auto;
 	right: 20px;
-	background-position: -36px 0;
+	
+		i
+		{
+		margin: 8px 0 0 7px;
+		border-left: 0;
+		border-right: 3px solid #FFF;
+		transform: rotate(45deg);
+		}
 	}
 
 	ul.jauntyslider-navigation

@@ -74,10 +74,12 @@ module.exports = function(userOptions)
 		this.elements.previousArrow = document.createElement('a');
 		this.elements.previousArrow.classList.add('jauntyslider-previous');
 		this.elements.previousArrow.setAttribute('title', 'Previous');
+		this.elements.previousArrow.appendChild(document.createElement('i'));
 		
 		this.elements.nextArrow = document.createElement('a');
 		this.elements.nextArrow.classList.add('jauntyslider-next');
 		this.elements.nextArrow.setAttribute('title', 'Next');
+		this.elements.nextArrow.appendChild(document.createElement('i'));
 		
 		this.elements.wrapper.insertBefore(this.elements.previousArrow, this.elements.list);
 		this.elements.wrapper.appendChild(this.elements.nextArrow);
