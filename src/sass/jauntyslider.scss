@@ -46,7 +46,7 @@ overflow: hidden;
 	width: 28px;
 	height: 28px;
 	cursor: pointer;
-	background-color: rgba(119, 119, 119, 0.7);
+	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 50%;
 	@include user-select(none);
 
@@ -56,8 +56,8 @@ overflow: hidden;
 		margin: 8px 0 0 10px;
 		width: 9px;
 		height: 9px;
-		border-left: 3px solid #FFF;
-		border-top: 3px solid #FFF;
+		border-left: 3px solid rgba(119, 119, 119, 0.7);
+		border-top: 3px solid rgba(119, 119, 119, 0.7);
 		transform: rotate(-45deg);
 		@include user-select(none);
 		}
@@ -73,7 +73,7 @@ overflow: hidden;
 		{
 		margin: 8px 0 0 7px;
 		border-left: 0;
-		border-right: 3px solid #FFF;
+		border-right: 3px solid rgba(119, 119, 119, 0.7);
 		transform: rotate(45deg);
 		}
 	}
@@ -96,6 +96,7 @@ overflow: hidden;
 		background: rgba(119, 119, 119, 0.7);
 		width: 10px;
 		height: 10px;
+		border-radius: 50%;
 		float: left;
 		cursor: pointer;
 		@include user-select(none);
